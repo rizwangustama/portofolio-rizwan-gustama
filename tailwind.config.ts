@@ -8,6 +8,29 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        },
+      },
+      fontFamily: {
+        'Inter': ['Inter', 'sans-serif'],
+        default: ['Inter', 'sans-serif'],
+      },
+      colors: {
+        'ColorBgPrimary': '#000319',
+        'ColorPrimary': '#CBACF9',
+        'ColorBgLinearPrimary': '#04071D',
+        'ColorBgLinearSecondary': '#0C0E23',
+        'ColorLinePrimary': '#6971A2',
+        'ColorButtonPrimary': '#161A31',
+        'ColorButtonSecondary': '#06091F'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
